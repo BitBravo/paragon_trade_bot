@@ -53,5 +53,5 @@ Entre em contato, estamos a sua disposição.
 
 
 if __name__ == '__main__':
-    mailer  = Mailer('mail.curteeconecta.com.br', 465, 'notifications@curteeconecta.com.br', 'magiclick2017', True)
+    mailer  = Mailer('mail_server', 465, 'email', 'password', True)
     mailer.send('pythonica','stevobujica91@gmail.com', 'test', html)
