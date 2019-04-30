@@ -1,5 +1,4 @@
 from flask import Flask,jsonify,request,url_for,abort,g, render_template, redirect
-from apscheduler.scheduler import Scheduler
 from flask import Response
 import requests
 from db import DBSession, User, ProcessedTarget, Signal, Trade, Account, Channel, Profile
